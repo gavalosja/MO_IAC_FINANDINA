@@ -11,11 +11,14 @@ from infra.utils.naming import create_name
 
 
 app = cdk.App()
-# prueba
+# prueba aaaaaa
 # Context configuration (required)
 # config = app.node.try_get_context("config")
 # if not config:
 #     raise ValueError("Context variable missing on CDK command. Pass in as '-c config=XXX'")
+
+
+
 config = 'dev'
 context_env = environments[config]
 region = context_env.region
